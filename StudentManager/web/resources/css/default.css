@@ -1,0 +1,205 @@
+    body
+	{
+		background: #202020;
+		font-size: 12pt;
+		font-weight: 200;
+		color: #444444;
+	}
+
+	h1
+	{
+		font-weight: 400;
+        color: #FFF;
+	}
+
+	ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+
+	a
+	{
+		color: #2980b9;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: 40px auto;
+		width: 1200px;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: relative;
+		float: left;
+		width: 300px;
+		padding: 3em 0 1em;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		text-align: center;
+        margin-top: 1em;
+		margin-bottom: 4em;
+	}
+
+    #logo img
+    {
+        width: 140px;
+        height: 140px;
+        display: inline-block;
+        margin-bottom: 1em;
+        border-radius: 50%;
+    }
+	
+	#logo h1
+	{
+		display: block;
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu li
+	{
+		border-top: 1px solid rgba(255,255,255,0.08);
+	}
+	
+	#menu li a
+	{
+		display: block;
+		padding: 2em 1.5em;
+		text-align: center;
+		text-decoration:  none;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: rgba(255,255,255,0.5);
+	}
+	
+	#menu .current_page_item a
+	{
+		background: #2980b9;
+		color: rgba(255,255,255,1);
+	}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+		background: #2a2a2a;
+	}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+        height: 675px;
+		overflow: hidden;
+		float: right;
+		width: 800px;
+		padding: 2em 50px 1em 50px;
+		background: #f9f9f9;
+		border-top: 6px solid #2980b9;
+		text-align: center;
+	}
+
+    .top{
+        width: 800px;
+    }
+
+    .table{
+        margin-top: 110px;
+        height: 433px;
+    }
+
+    .btn-add{
+        width: 100px;
+        height: 38px;
+        float: left;
+        margin-top: 30px;
+    }
+
+    .find{
+        float: right;
+        margin-top: 30px;
+    }
+
+    #find-text{
+        width: 250px;
+        height: 30px;
+    }
+
+    .find-btn{
+        height: 30px;
+    }
+
+	.table-input{
+        width: 40px;
+        text-align: center;
+        border-top: none;
+		border-left: none;
+		border-right: none;
+		border-bottom-color: #e6e6e6;
+        background: transparent;
+	}
+
+    .update-btn{
+        font-weight: 100;
+        font-size: 16px;
+        color: #2980b9;
+        cursor:pointer;
+        border:none;
+        background:transparent;
+        text-decoration:underline
+    }
+
+    .update-btn:hover{
+        text-decoration: none;
+    }
+
+	.personalImg{
+		width: 200px;
+		height: 200px;
+        margin-bottom: 5px;
+	}
+
+    .info{
+        margin-top: 20px;
+    }
+
+    .personalForm{
+        margin-top: 20px;
+    }
+
+    .personalInput{
+        height: 35px;
+        margin-bottom: 10px;
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+	
+	#index{
+        margin-top: 20px;
+	}

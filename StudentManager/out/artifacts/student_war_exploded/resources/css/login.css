@@ -1,0 +1,86 @@
+body{
+    background-color: #f1f1f1;
+}
+
+
+.main{
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -250px 0 0 -200px;
+    padding: 50px;
+    background-color: white;
+    border-radius:10px ;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.title{
+    padding-top: 25px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.title a{
+    padding: 10px;
+    color: #b19696;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#login{
+    font-weight: 600;
+    color: #ea6f5a;
+    border-bottom: 1px solid #ea6f5a;
+    text-decoration: none;
+}
+
+.form-control{
+    height: 50px;
+}
+
+.user{
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    background:url(../img/user.png) no-repeat 5px 12px;
+    background-size: 25px 25px;
+    padding-left:35px;
+}
+
+.password{
+    border-radius: 0 0 5px 5px;
+    background:url(../img/password.png) no-repeat 8px 12px;
+    background-size: 20px 20px;
+    padding-left:35px;
+}
+
+.code{
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding-left: 10px;
+}
+
+.remember-btn{
+    float: left;
+    margin: 25px 0 35px;
+    font-size: 14px;
+    color: #999;
+}
+.form-group .help{
+    float: right;
+    position: relative;
+    margin: 25px 0 35px;
+    font-size: 14px;
+    color: #999;
+}
+
+.btn{
+    margin-top: 40px;
+    border: none;
+    border-radius: 25px;
+    background: #3194d0;
+}

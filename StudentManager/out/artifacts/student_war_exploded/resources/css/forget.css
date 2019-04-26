@@ -1,0 +1,17 @@
+body{
+    background-color: #f1f1f1;
+}
+
+
+.main{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -150px 0 0 -300px;
+    padding: 100px;
+    background-color: white;
+    border-radius:10px ;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
