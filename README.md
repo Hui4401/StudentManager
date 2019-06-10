@@ -23,9 +23,9 @@ JavaWeb期末项目，一个基于JSP和Servlet的学生信息管理系统实现
 
 1. 下载项目
 2. 在mariadb中创建一个数据库 **student_manager** ，使用source命令加载 **项目文件夹下的sql文件**
-3. 将项目文件中的 **student_manager** 文件夹移动到 **tomcat安装目录下的webapps文件夹** 中
-4. 将 **jar文件夹下的所有jar文件** 和 **tomcat安装目录下lib文件夹中的servlet-api.jar** 移动到jdk安装目录的 **jre/lib/ext/** 目录下: 
-5. cd进入WEB-INF目录下的classes文件夹中，`javac */*.java`
+3. 将 **jar文件夹下的所有jar文件** 和 **tomcat安装目录下lib文件夹中的servlet-api.jar** 移动到jdk安装目录的 **jre/lib/ext/** 目录下
+4. 将项目文件中的 **student_manager** 文件夹移动到 **tomcat安装目录下的webapps文件夹** 中
+5. cd进入 **WEB-INF目录下的classes文件夹×× 中，`javac */*.java`
 6. 启动tomcat，浏览器输入 localhost:8080/student_manager
 
 ## 4.简要说明
