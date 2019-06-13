@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="student_manager">
+    <output-path>$PROJECT_DIR$/out/artifacts/student_manager</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="student_manager/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="student_manager" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/itextpdf-5.5.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jsmartcom_zh_CN.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mariadb-java-client-2.4.1.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
