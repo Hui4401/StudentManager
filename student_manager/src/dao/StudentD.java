@@ -143,8 +143,8 @@ public class StudentD {
     }
 
     private void initConnection() throws Exception {
-        Class.forName("org.mariadb.jdbc.Driver");
-        conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/student_manager", "root", "111");
+        Class.forName("com.mysql.jdbc.Driver");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_manager", "root", "111");
     }
 
     private void closeConnection() throws Exception{
