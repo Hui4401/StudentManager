@@ -24,7 +24,7 @@ JavaWeb期末项目，一个基于JSP和Servlet的学生信息管理系统实现
 
 1. 下载项目
 2. 在mariadb中创建一个数据库 **student_manager** ，使用source命令加载 **项目文件夹下的sql文件**
-3. 可以将项目中的 **student_manager/out/artifacts/student_manager** 文件夹整个移入tomcat的webapps目录，然后启动tomcat即可访问 *localhost:8080/student_manager*
+3. 可以将项目中的 **student_manager/out/artifacts/student** 文件夹整个移入tomcat的webapps目录，然后启动tomcat即可访问 *localhost:8080/student*
 4. 或者用idea打开项目中的student_manager文件夹，配置好tomcat后运行
 
 ## 4.简要说明
