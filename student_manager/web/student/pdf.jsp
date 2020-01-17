@@ -3,6 +3,7 @@
 <%@ page import="com.itextpdf.text.Paragraph" %>
 <%@ page import="com.itextpdf.text.pdf.BaseFont" %>
 <%@ page import="com.itextpdf.text.Font" %>
+<%@ page import="com.itextpdf.text.PageSize" %>
 <%@ page import="com.itextpdf.text.Element" %>
 <%@ page import="com.itextpdf.text.pdf.PdfPTable" %>
 <%@ page import="com.itextpdf.text.pdf.PdfPCell" %>
@@ -35,10 +36,10 @@
     String jsp = request.getParameter("jsp");
 
     try {
-        Document doc = new Document();
+        Document doc = new Document(PageSize.A4);
         ByteArrayOutputStream buffer = new ByteArrayOutputStream();
         PdfWriter.getInstance(doc, buffer);
-        BaseFont bf = BaseFont.createFont("C:/Windows/Fonts/STKAITI.TTF", BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
+        BaseFont bf = BaseFont.createFont(request.getSession().getServletContext().getRealPath("/")+"resources/font/msyh.ttf", BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
         Font font = new Font(bf, 15, Font.NORMAL);
 
         doc.open();

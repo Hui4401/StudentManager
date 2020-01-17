@@ -100,7 +100,7 @@ public class ScoreD {
 
     private void initConnection() throws Exception {
         Class.forName("com.mysql.jdbc.Driver");
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_manager", "root", "111");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_manager?useSSL=false", "root", "111");
     }
 
     private void closeConnection() throws Exception{
