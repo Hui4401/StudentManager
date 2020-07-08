@@ -64,8 +64,12 @@ JavaWeb期末项目，一个基于JSP和Servlet的学生信息管理系统实现
 
 - 登录页
 
-<img src="screenshots/登录.png" width = "100%" div align=center/>
+<div align=center>
+    <img src="screenshots/登录.png" width = "80%">
+</div>
 
 - 学生管理
 
-<img src="screenshots/主界面.png" width = "100%" div align=center/>
+<div align=center>
+    <img src="screenshots/主界面.png" width = "80%">
+</div>
