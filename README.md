@@ -64,8 +64,8 @@ JavaWeb期末项目，一个基于JSP和Servlet的学生信息管理系统实现
 
 - 登录页
 
-[![EnBzJe.png](https://s2.ax1x.com/2019/04/26/EnBzJe.png)](https://imgchr.com/i/EnBzJe)
+<img src="screenshots/登录.png" width = "100%" div align=center/>
 
 - 学生管理
 
-[![EnBxiD.md.png](https://s2.ax1x.com/2019/04/26/EnBxiD.md.png)](https://imgchr.com/i/EnBxiD)
+<img src="screenshots/主界面.png" width = "100%" div align=center/>
