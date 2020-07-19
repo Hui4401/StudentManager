@@ -23,8 +23,8 @@ JavaWeb期末项目，一个基于JSP和Servlet的学生信息管理系统实现
 ## 3.使用方法
 
 1. 下载项目
-2. 在mysql中创建一个数据库 **student_manager** ，使用source命令加载 **根目录下的sql文件**
-3. 用idea导入项目，配置好tomcat后即可运行
+2. 在mysql中新建一个数据库 **student_manager** ，使用source命令加载 **根目录下的sql文件**
+3. 用idea导入项目，修改 **/src/dao/** 下所有文件的MySQL连接代码中的用户密码信息，配置好tomcat后即可运行
 
 ## 4.简要说明
 
