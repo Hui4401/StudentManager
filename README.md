@@ -2,6 +2,18 @@
 
 JavaWeb期末项目，一个基于JSP和Servlet的学生管理系统实现，前端用了bootstrap和一些自定义的css样式，数据库使用mysql
 
+- 登录页
+
+<div align=center>
+    <img src="https://imgchr.com/i/atlVG6" width = "80%">
+</div>
+
+- 学生管理
+
+<div align=center>
+    <img src="https://imgchr.com/i/atlEPx" width = "80%">
+</div>
+
 ## 1.开发环境
 
 - idea 2018
@@ -59,17 +71,3 @@ JavaWeb期末项目，一个基于JSP和Servlet的学生管理系统实现，前
 | /code.jsp | 生成随机验证码 |
 | /teacher/*.jsp | 教师页面 |
 | /student/*.jsp | 学生页面 |
-
-## 5.效果展示
-
-- 登录页
-
-<div align=center>
-    <img src="screenshots/登录.png" width = "80%">
-</div>
-
-- 学生管理
-
-<div align=center>
-    <img src="screenshots/主界面.png" width = "80%">
-</div>
