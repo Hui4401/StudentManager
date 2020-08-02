@@ -3,9 +3,11 @@
 JavaWeb期末项目，一个基于JSP和Servlet的学生管理系统实现，前端用了bootstrap和一些自定义的css样式，数据库使用mysql
 
 - 登录页
+
 ![atlEPx.png](https://s1.ax1x.com/2020/08/02/atlEPx.png)
 
 - 学生管理
+
 ![atlVG6.png](https://s1.ax1x.com/2020/08/02/atlVG6.png)
 
 ## 1.开发环境
