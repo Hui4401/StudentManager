@@ -4,11 +4,11 @@ JavaWeb期末项目，一个基于JSP和Servlet的学生管理系统实现，前
 
 - 登录页
 
-![atlEPx.png](https://s1.ax1x.com/2020/08/02/atlEPx.png)
+![1.png](https://cdn.jsdelivr.net/gh/Hui4401/picbed/projects/StudentManager/1.png)
 
 - 学生管理
 
-![atlVG6.png](https://s1.ax1x.com/2020/08/02/atlVG6.png)
+![2.png](https://cdn.jsdelivr.net/gh/Hui4401/picbed/projects/StudentManager/2.png)
 
 ## 1.开发环境
 
